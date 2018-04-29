@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5334" started-at="2018-04-28T18:46:27Z" finished-at="2018-04-28T18:46:33Z">
+  <suite name="Default suite" duration-ms="6517" started-at="2018-04-29T08:05:52Z" finished-at="2018-04-29T08:05:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5334" started-at="2018-04-28T18:46:27Z" finished-at="2018-04-28T18:46:33Z">
-      <class name="testcases.TC001">
-        <test-method status="PASS" signature="testcase1()[pri:0, instance:testcases.TC001@18be83e4]" name="testcase1" duration-ms="5315" started-at="2018-04-28T11:46:27Z" finished-at="2018-04-28T11:46:33Z">
+    <test name="Default test" duration-ms="6517" started-at="2018-04-29T08:05:52Z" finished-at="2018-04-29T08:05:58Z">
+      <class name="testcases.TC002">
+        <test-method status="PASS" signature="f()[pri:0, instance:testcases.TC002@18be83e4]" name="f" duration-ms="6499" started-at="2018-04-29T01:05:52Z" finished-at="2018-04-29T01:05:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testcase1 -->
-      </class> <!-- testcases.TC001 -->
+        </test-method> <!-- f -->
+      </class> <!-- testcases.TC002 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
