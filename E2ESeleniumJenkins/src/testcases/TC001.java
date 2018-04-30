@@ -5,6 +5,25 @@ import org.testng.annotations.*;
 public class TC001 {
 	
 	@Test
+	  public void f1() throws InterruptedException {
+		  System.setProperty("webdriver.chrome.driver", "/Users/nileshpadwal456/Downloads/chromedriver");
+			ChromeDriver driver = new ChromeDriver();
+			driver.get("http://localhost:9966/petclinic/");
+			
+			driver.findElementByClassName("icon-search").click();
+			driver.findElementByName("lastName").sendKeys("Davis");
+			driver.findElementByCssSelector("button").click();
+			//driver.findElementById("lastName").sendKeys("Davis");
+			//driver.findElementByTagName("submit").click();
+			//driver.findElementById("Passwd").sendKeys("Hello");
+			//driver.findElementById("signIn").click();
+			Thread.sleep(3000);
+	      driver.quit();
+	  }
+	
+	
+	
+	/*@Test
     public void testcase1()
     {    
 		System.setProperty("webdriver.chrome.driver", "/Users/nileshpadwal456/Downloads/chromedriver");
@@ -25,5 +44,5 @@ public class TC001 {
 			//driver.findElementById("signIn").click();
 			Thread.sleep(2000);
 	      driver.quit();
-	  }
+	  } */
 }
