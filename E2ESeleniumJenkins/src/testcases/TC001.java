@@ -8,7 +8,7 @@ public class TC001 {
 	  public void f1() throws InterruptedException {
 		  System.setProperty("webdriver.chrome.driver", "/Users/nileshpadwal456/Downloads/chromedriver");
 			ChromeDriver driver = new ChromeDriver();
-			driver.get("http://localhost:9966/petclinic/");
+			driver.get("http://192.168.56.101:8080/petclinic/");
 			
 			driver.findElementByClassName("icon-search").click();
 			driver.findElementByName("lastName").sendKeys("Davis");
