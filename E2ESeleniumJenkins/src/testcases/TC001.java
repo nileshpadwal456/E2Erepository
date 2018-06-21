@@ -17,7 +17,7 @@ public class TC001 {
 			//driver.findElementByTagName("submit").click();
 			//driver.findElementById("Passwd").sendKeys("Hello");
 			//driver.findElementById("signIn").click();
-			Thread.sleep(3000);
+			Thread.sleep(6000);
 	      driver.quit();
 	  }
 	
